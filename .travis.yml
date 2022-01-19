@@ -68,6 +68,7 @@ env:
   # TODO: Not easy to test in CI at this time.
   # - playbook: lamp-infrastructure.yml
   #   distro: ubuntu2004
+  # distro: new changes by jatin
 
   - shell_script: molecule.sh
 
